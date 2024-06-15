@@ -47,7 +47,7 @@ input[type=search]::-webkit-search-cancel-button {
 
 /* Contents */
 #contents {display: flex; column-gap: 32px; height: calc(100vh - 154px)}
-#contents aside {width: 290px; padding: 32px; background-color: var(--light-color-1); flex-shrink: 0;}
+#contents aside {width: 290px; padding: 24px; background-color: var(--light-color-1); flex-shrink: 0;}
 .tab-cont {width: 100%; padding: 32px; padding-left: 0; justify-content: center;align-items: center; display: none;}
 .tab-cont.active {display: flex; color: #cccde0; font-size: 28px; font-weight: 600;}
 
