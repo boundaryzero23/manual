@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>y-BE 매뉴얼</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/content.css">
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="logo">
+        <h1>y-BE 매뉴얼</h1>
+        <span>버전 3.2.5</span>
+      </div>
+      <div class="gnb-wrap">
+        <form action="">
+          <input type="search" name="" id="" placeholder="검색어 입력">
+        </form>
+        <div class="btns">
+          <button type="button" class="ico-return">돌아가기</button>
+          <button type="button" class="ico-login">로그인</button>
+        </div>
+      </div>
+    </header>
+    <section id="keywords">
+      <h2>자주 찾는 키워드 <button type="button" class="ico-setting">셋팅하기</button></h2>
+      <ul>
+        <li><button type="button">#y-BE 런처/앱</button></li>
+        <li><button type="button">#y-BE 메인화면</button></li>
+        <li><button type="button">#업무관리</button></li>
+        <li><button type="button">#대시보드</button></li>
+        <li><button type="button">#이동하기</button></li>
+        <li><button type="button">#y-BE 런처/앱</button></li>
+        <li><button type="button">#y-BE 메인화면</button></li>
+        <li><button type="button">#업무관리</button></li>
+        <li><button type="button">#대시보드</button></li>
+        <li><button type="button">#이동하기</button></li>
+        <li><button type="button">#y-BE 런처/앱</button></li>
+        <li><button type="button">#y-BE 메인화면</button></li>
+      </ul>
+    </section>
+    <section id="contents">
+      <h2 class="visually-hidden">콘텐츠 영역</h2>
+      <aside>
+        <div class="tab-menu">
+          <div class="tab active" data-target="user-content">사용자</div>
+          <div class="tab" data-target="admin-content">관리자</div>
+        </div>
+        <div id="user-content" class="tab-content active">
+          <article>
+            <label class="radio-container">처음 사용자를 위한 온보딩
+              <input type="radio" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <p>처음 y-BE를 사용하시는 분을 위한 <br>온보딩 가이드 입니다.</p>
+          </article>
+
+          <ul class="menu">
+            <li class="active current">
+              <a href="#">y-BE 런처/앱</a>
+              <ul>
+                <li class="active"><a href="#">런처/앱 기능 설명</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">y-BE 메인화면</a>
+              <ul>
+                <li><a href="#">서비스 URL</a></li>
+                <li><a href="#">로그인 계정</a></li>
+                <li><a href="#">메뉴 설명 및 접근 권한 안내</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">업무관리</a>
+              <ul>
+                <li><a href="#">'업무 관리' 화면 설명</a></li>
+                <li><a href="#">구성원 선택</a></li>
+                <li><a href="#">날짜 선택</a></li>
+                <li><a href="#">근태 관리</a></li>
+                <li><a href="#">일일 근무 시간</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">대시보드</a>
+              <ul>
+                <li><a href="#">'대시보드' 화면 설명</a></li>
+                <li><a href="#">'SW 사용내역' 화면 설명</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div id="admin-content" class="tab-content">
+          <article>
+            <label class="radio-container">초기 설정을 위한 온보딩
+              <input type="radio" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <p>처음 관리를 맡게 되신 분을 위한 <br>온보딩 가이드 입니다.</p>
+          </article>
+          <ul class="menu">
+            <li class="active current">
+              <a href="#">관리자메뉴-1</a>
+              <ul>
+                <li class="active"><a href="#">관리자메뉴-1 기능 설명</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">관리자메뉴-2</a>
+              <ul>
+                <li><a href="#">관리자메뉴-2</a></li>
+                <li><a href="#">관리자메뉴-2</a></li>
+                <li><a href="#">관리자메뉴-2</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">관리자메뉴-3</a>
+              <ul>
+                <li><a href="#">관리자메뉴-3 화면 설명</a></li>
+                <li><a href="#">관리자메뉴-3</a></li>
+                <li><a href="#">관리자메뉴-3</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">관리자메뉴-4</a>
+              <ul>
+                <li><a href="#">관리자메뉴-4 화면 설명</a></li>
+                <li><a href="#">관리자메뉴-4 화면 설명</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </aside>
+      <div id="user-content-area" class="tab-cont active">
+        사용자 콘텐츠
+      </div>
+      <div id="admin-content-area" class="tab-cont">
+        관리자 콘텐츠
+      </div>
+    </section>
+    <footer>
+
+    </footer>
+  </div>
+
+  <script src="js/common.js"></script>
+</body>
+
+</html>
